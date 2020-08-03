@@ -30,10 +30,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<!-- Your site title as branding in the menu -->
 			<div class="container" id="menu-container">
 				<div class="row">
-					<div class="col-md-3">
+					<!-- <div class="col-md-3">
 						<img src="<?php echo get_stylesheet_directory_uri();?>/imgs/compass.svg" class="motivation-logo img-fluid" alt="Motivation in context lab compass.">
-					</div>
-					<div class="col-md-6">
+					</div> -->
+					<div class="col-md-9">
 						<a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url">
 
 						<h1 id="top-menu-title"><span class="very-large">Motivation</span>in Context Lab</h1>
