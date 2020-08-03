@@ -1,0 +1,444 @@
+{
+    "key": "group_5ee3c79c072d6",
+    "title": "Lesson Plan",
+    "fields": [
+        {
+            "key": "field_5ee3c7a88a426",
+            "label": "SOL",
+            "name": "sols",
+            "type": "taxonomy",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "sol_tags",
+            "field_type": "checkbox",
+            "add_term": 1,
+            "save_terms": 1,
+            "load_terms": 1,
+            "return_format": "object",
+            "multiple": 0,
+            "allow_null": 0
+        },
+        {
+            "key": "field_5ee3c8b281b6f",
+            "label": "Materials",
+            "name": "materials",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add item",
+            "sub_fields": [
+                {
+                    "key": "field_5ee927f3ec372",
+                    "label": "Item",
+                    "name": "item",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ee3c93364f46",
+            "label": "Google Folder Link",
+            "name": "google_folder_link",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ee3c7ff8a428",
+            "label": "Time Needed",
+            "name": "time_needed",
+            "type": "repeater",
+            "instructions": "Break your lesson down into components associated with time.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5ee9284b0cb32",
+                    "label": "Lesson Portion",
+                    "name": "lesson_portion",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "70",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5ee928560cb33",
+                    "label": "Time in Minutes",
+                    "name": "time",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "30",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ee3c80d8a429",
+            "label": "Description",
+            "name": "description",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5ee3c81b8a42a",
+            "label": "Alternatives or extensions:",
+            "name": "alternatives",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5ee3c83c8a42b",
+            "label": "Reflection suggestions",
+            "name": "reflection",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5ee3c84c8a42c",
+            "label": "Images",
+            "name": "images",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Image",
+            "sub_fields": [
+                {
+                    "key": "field_5ee3c85a8a42d",
+                    "label": "Image",
+                    "name": "image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ef0a260a9890",
+            "label": "Science Themes",
+            "name": "science_themes",
+            "type": "taxonomy",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "science_tags",
+            "field_type": "checkbox",
+            "add_term": 1,
+            "save_terms": 1,
+            "load_terms": 1,
+            "return_format": "object",
+            "multiple": 0,
+            "allow_null": 0
+        },
+        {
+            "key": "field_5ef0a2aaa9891",
+            "label": "Math Themes",
+            "name": "math_themes",
+            "type": "taxonomy",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "math_tags",
+            "field_type": "checkbox",
+            "add_term": 1,
+            "save_terms": 1,
+            "load_terms": 1,
+            "return_format": "object",
+            "multiple": 0,
+            "allow_null": 0
+        },
+        {
+            "key": "field_5ef0a2bfa9892",
+            "label": "Computer Science Themes",
+            "name": "comp_sci_themes",
+            "type": "taxonomy",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "comp_sci_tags",
+            "field_type": "checkbox",
+            "add_term": 1,
+            "save_terms": 1,
+            "load_terms": 1,
+            "return_format": "object",
+            "multiple": 0,
+            "allow_null": 0
+        },
+        {
+            "key": "field_5ef0a2d7a9893",
+            "label": "Engineering Themes",
+            "name": "engineering_themes",
+            "type": "taxonomy",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "eng_tags",
+            "field_type": "checkbox",
+            "add_term": 1,
+            "save_terms": 1,
+            "load_terms": 1,
+            "return_format": "object",
+            "multiple": 0,
+            "allow_null": 0
+        },
+        {
+            "key": "field_5efa1d3b5257b",
+            "label": "Resources and References",
+            "name": "resources_and_references",
+            "type": "repeater",
+            "instructions": "This is a place to include additional resources or reference materials.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add Resource",
+            "sub_fields": [
+                {
+                    "key": "field_5efa1d515257c",
+                    "label": "Title",
+                    "name": "resource_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5efa1d925257d",
+                    "label": "Resource Link",
+                    "name": "resource_link",
+                    "type": "url",
+                    "instructions": "Optional",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5efa1da35257e",
+                    "label": "Resource Description",
+                    "name": "resource_description",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "lesson"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "excerpt",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "page_attributes",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1593449975
+}

@@ -1,0 +1,120 @@
+{
+    "key": "group_5f24198c6ca82",
+    "title": "Research",
+    "fields": [
+        {
+            "key": "field_5f2419ca1fbfb",
+            "label": "Publication Details",
+            "name": "publication_details",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5f2419d81fbfc",
+                    "label": "Publication Text",
+                    "name": "publication_text",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 0,
+                    "delay": 0
+                },
+                {
+                    "key": "field_5f2419ec1fbfd",
+                    "label": "Publication URL",
+                    "name": "publication_url",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5f241bc6d8819",
+            "label": "Presentations",
+            "name": "presentation_details",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5f241bc6d881a",
+                    "label": "Presentation Text",
+                    "name": "presentation_text",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 0,
+                    "delay": 0
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "page-templates\/fullwidthpage-research.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1596212033
+}

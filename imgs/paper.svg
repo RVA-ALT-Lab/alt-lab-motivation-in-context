@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="118px" viewBox="0 0 118 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Page 1</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#E57201" cx="59" cy="59" r="59"></circle>
+        <polygon id="Triangle" fill="#E57201" points="17 94 33 111 1 111"></polygon>
+        <path d="M87.216,27.261 L87.216,21.904 L81.619,21.904 L81.619,16.546 L25.427,16.546 L25.427,92.739 L31.023,92.739 L31.023,98.096 L36.38,98.096 L36.38,103.453 L92.573,103.453 L92.573,27.261 L87.216,27.261 Z M28.284,89.882 L28.284,19.403 L78.761,19.403 L78.761,21.903 L78.761,24.76 L78.761,89.881 L33.88,89.881 L31.023,89.881 L28.284,89.881 L28.284,89.882 Z M33.88,95.239 L33.88,92.739 L81.619,92.739 L81.619,24.761 L84.357,24.761 L84.357,26.07 L84.357,27.261 L84.357,30.118 L84.357,95.239 L39.237,95.239 L36.38,95.239 L33.88,95.239 L33.88,95.239 Z M89.715,100.597 L39.237,100.597 L39.237,98.097 L87.216,98.097 L87.216,30.118 L89.715,30.118 L89.715,100.597 L89.715,100.597 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        <text id="01110000-01110101-01" font-family="UbuntuMono-Regular, Ubuntu Mono" font-size="5" font-weight="normal" letter-spacing="-0.2" fill="#FDFEFF">
+            <tspan x="33" y="48">01110000 01110101 </tspan>
+            <tspan x="33" y="53">01100010 01101100 </tspan>
+            <tspan x="33" y="58">01101001 01100011 </tspan>
+            <tspan x="33" y="63">01100001 01110100 </tspan>
+            <tspan x="33" y="68">01101001 01101111</tspan>
+            <tspan x="33" y="73">01101110</tspan>
+        </text>
+        <text id="01101110-01100101-01" font-family="UbuntuMono-Regular, Ubuntu Mono" font-size="5" font-weight="normal" letter-spacing="-0.2" fill="#FDFEFF">
+            <tspan x="33" y="32">01101110 01100101 </tspan>
+            <tspan x="33" y="37">01110111</tspan>
+        </text>
+    </g>
+</svg>
