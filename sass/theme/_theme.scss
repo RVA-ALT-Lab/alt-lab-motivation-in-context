@@ -280,21 +280,23 @@ blockquote {
 	display: block;
 }
 
-.profile-holder:nth-of-type(1n) #cog{
+.people-row .col-md-4:nth-of-type(odd) #cog{
 	fill: $blue;
 }
 
-.profile-holder:nth-of-type(1n) #person{
+.people-row .col-md-4:nth-of-type(odd) #person{
 	fill: $blue;
 }
 
-svg.img-fluid.profile-holder #cog:nth-of-type(odd){
-	fill: $aqua;
+.people-row .col-md-4:nth-of-type(even) #cog{
+	fill: $gold;
 }
 
-svg.img-fluid.profile-holder #person:nth-of-type(even){
-	fill: $aqua;
+.people-row .col-md-4:nth-of-type(even) #person{
+	fill: $gold;
 }
+
+
 
 
 // .person-name:before {
