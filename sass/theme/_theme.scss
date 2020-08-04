@@ -129,6 +129,16 @@ h1, h2, h3, h4, h5 {
     top: -10px;
 }
 
+//blockquote 
+
+blockquote {
+	font-size: 1.3em;
+	font-weight: 200;
+	margin: 30px 100px;
+	border-left: 5px $blue solid;
+	padding: 0 10px;
+}
+
 //research land
 
 .research-img {
