@@ -118,7 +118,27 @@ function motivation_group(){
 
 function motivation_research(){
 	global $post;
-	
+	$cats = wp_get_post_categories($post->ID);
+	$cats_string = implode(', ', $cats);
+	$html = "";  
+	  $args = array(
+	      'posts_per_page' => 40,
+	      'post_type'   => 'research', 
+	      'post_status' => 'publish', 
+	      'orderby' => 'name',
+	      'order'   => 'ASC',
+	      'nopaging' => false,
+	       'cat' => $cats_string,
+	                    );
+	    $the_query = new WP_Query( $args );
+	                    if( $the_query->have_posts() ): 
+	                      while ( $the_query->have_posts() ) : $the_query->the_post();
+	                       //get_template_part( 'loop-templates/content', 'person-loop' );                 
+	                      	$html .= get_the_title();
+	                       endwhile;
+	                  endif;
+	            wp_reset_query();  // Restore global post data stomped by the_post().
+	            echo $html;
 }
 
 function motivation_presentations(){
