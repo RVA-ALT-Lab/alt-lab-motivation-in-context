@@ -134,7 +134,8 @@ function motivation_research(){
 	                    if( $the_query->have_posts() ): 
 	                      while ( $the_query->have_posts() ) : $the_query->the_post();
 	                       //get_template_part( 'loop-templates/content', 'person-loop' );                 
-	                      	$html .= get_the_title();
+	                      	$html .= '<div class="col-md-6"><h3>' . get_the_title() . '</h3>';
+	                      	$html .= '<div class="pub-content">' . get_the_content() . '</div></div>';
 	                       endwhile;
 	                  endif;
 	            wp_reset_query();  // Restore global post data stomped by the_post().
