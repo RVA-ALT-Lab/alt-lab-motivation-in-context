@@ -18,21 +18,17 @@ defined( 'ABSPATH' ) || exit;
 
 	</header><!-- .entry-header -->
 
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
 
 	<div class="entry-content">
-
-		<?php the_content(); ?>
-
-		<?php
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'understrap' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
-
+		<div class="row">
+			<div class="col-md-4">
+					<img src="<?php echo motivation_profile_image();?>" alt="Profile image for <?php the_title();?>"> 
+			</div>
+			<div class="col-md-8">
+				<?php the_field('biography'); ?>
+			</div>
+		</div>
+	
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
