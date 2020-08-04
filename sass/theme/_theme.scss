@@ -280,6 +280,23 @@ blockquote {
 	display: block;
 }
 
+.profile-holder:nth-of-type(1n) #cog{
+	fill: $blue;
+}
+
+.profile-holder:nth-of-type(1n) #person{
+	fill: $blue;
+}
+
+svg.img-fluid.profile-holder #cog:nth-of-type(odd){
+	fill: $aqua;
+}
+
+svg.img-fluid.profile-holder #person:nth-of-type(even){
+	fill: $aqua;
+}
+
+
 // .person-name:before {
 //   content: "";
 //   width: 0px;
