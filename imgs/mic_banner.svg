@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1229px" height="275px" viewBox="0 0 1229 275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="868px" height="191px" viewBox="0 0 868 191" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Page 1</title>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" fill="#63656A" x="0" y="0" width="1229" height="275"></rect>
-        <text id="in-context" font-family="Poppins-Bold, Poppins" font-size="122" font-weight="bold" letter-spacing="-4.88" fill="#FDFEFF">
-            <tspan x="295" y="244">in context</tspan>
+        <rect id="Rectangle" fill="#63656A" x="-81" y="-38" width="1229" height="275"></rect>
+        <text id="in-context" font-family="Poppins-Bold, Poppins" font-size="93" font-weight="bold" letter-spacing="-3.72" fill="#FDFEFF">
+            <tspan x="220" y="185">in context</tspan>
         </text>
         <text id="otivation" fill="#FFFFFF" fill-rule="nonzero" font-family="Poppins-Bold, Poppins" font-size="122" font-weight="bold" letter-spacing="-4.88">
-            <tspan x="407" y="135">otivation</tspan>
+            <tspan x="326" y="97">otivation</tspan>
         </text>
         <text id="M" fill="#00B3BE" fill-rule="nonzero" font-family="Poppins-Bold, Poppins" font-size="122" font-weight="bold" letter-spacing="-4.88">
-            <tspan x="294" y="135">M</tspan>
+            <tspan x="213" y="97">M</tspan>
         </text>
-        <text id="lab" font-family="Poppins-Bold, Poppins" font-size="122" font-weight="bold" letter-spacing="-4.88" fill="#FDFEFF">
-            <tspan x="956" y="244">lab</tspan>
+        <text id="lab" font-family="Poppins-Bold, Poppins" font-size="93" font-weight="bold" letter-spacing="-3.72" fill="#FDFEFF">
+            <tspan x="719" y="185">lab</tspan>
         </text>
-        <polygon id="Triangle" fill="#FFFFFF" transform="translate(902.000000, 235.000000) rotate(90.000000) translate(-902.000000, -235.000000) " points="902 223 914 247 890 247"></polygon>
-        <g id="Group-7" transform="translate(59.000000, 54.000000)">
-            <g id="Group-6"></g>
-            <ellipse id="Oval" stroke="#00B3BE" stroke-width="8" cx="95.5" cy="93" rx="45.5" ry="45"></ellipse>
-            <circle id="Oval" stroke="#00B3BE" stroke-width="8" cx="93.5" cy="94.5" r="16.5"></circle>
-            <line x1="95" y1="68" x2="95" y2="76" id="Line" stroke="#00B3BE" stroke-width="8" stroke-linecap="round"></line>
-            <line x1="95" y1="113" x2="95" y2="121" id="Line" stroke="#00B3BE" stroke-width="8" stroke-linecap="round"></line>
-            <line x1="79.9347223" y1="73.8362399" x2="77.7200499" y2="81.5627855" id="Line" stroke="#00B3BE" stroke-width="8" stroke-linecap="round" transform="translate(78.827386, 77.699513) rotate(-60.941701) translate(-78.827386, -77.699513) "></line>
-            <line x1="112.455428" y1="105.853742" x2="110.240755" y2="113.580288" id="Line" stroke="#00B3BE" stroke-width="8" stroke-linecap="round" transform="translate(111.348091, 109.717015) rotate(-60.941701) translate(-111.348091, -109.717015) "></line>
-            <line x1="110.681858" y1="75.7876654" x2="112.89653" y2="83.514211" id="Line" stroke="#00B3BE" stroke-width="8" stroke-linecap="round" transform="translate(111.789194, 79.650938) rotate(-119.058299) translate(-111.789194, -79.650938) "></line>
-            <line x1="77.1638369" y1="106.9682" x2="79.3785093" y2="114.694746" id="Line" stroke="#00B3BE" stroke-width="8" stroke-linecap="round" transform="translate(78.271173, 110.831473) rotate(-119.058299) translate(-78.271173, -110.831473) "></line>
-            <line x1="72.2081366" y1="89.8471328" x2="70.0021111" y2="97.5693951" id="Line" stroke="#00B3BE" stroke-width="8" stroke-linecap="round" transform="translate(71.105124, 93.708264) rotate(-105.943097) translate(-71.105124, -93.708264) "></line>
-            <line x1="117.95776" y1="89.8471328" x2="115.751735" y2="97.5693951" id="Line" stroke="#00B3BE" stroke-width="8" stroke-linecap="round" transform="translate(116.854747, 93.708264) rotate(-105.943097) translate(-116.854747, -93.708264) "></line>
-            <polyline id="Path-2" stroke="#00B3BE" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" points="91 0 110.587661 0 111.109324 25.7753943 129.971002 34.7045448 150.155421 17.3522724 170.556542 38.6321101 155.570831 56.2632146 162.120174 76.5869788 188 79.3418953 188 107.966192 162.120174 109.453003 159.146418 120"></polyline>
-            <polyline id="Path-3" stroke="#00B3BE" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" points="74 28.8395353 59.8612752 34.8875122 39.4832903 19 19.8371771 38.7813414 34.6699926 57.5582751 28.7901915 75.8206248 0 78.5488574 0 108.36831 28.7901915 111.096543 34.6699926 125"></polyline>
-            <path d="M25,159.148672 L36.1638625,170.401475 L57.0792626,152 L76.8110152,159.148672 C78.6248825,176.382891 79.5318162,185 79.5318162,185 C79.5318162,185 88.9379145,185 107.750111,185 L109.270043,161.886578 L127.854404,154.611322 L148.119737,170.401475 L165,156.362753" id="Path-4" stroke="#00B3BE" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
-            <circle id="Oval" fill="#00B3BE" cx="25" cy="142" r="4"></circle>
-            <circle id="Oval" fill="#00B3BE" cx="162" cy="139" r="4"></circle>
-            <circle id="Oval" fill="#00B3BE" cx="79" cy="11" r="4"></circle>
+        <polygon id="Triangle" fill="#FFFFFF" transform="translate(681.000000, 179.000000) rotate(90.000000) translate(-681.000000, -179.000000) " points="681 167 693 191 669 191"></polygon>
+        <g id="Group-6" transform="translate(0.000000, 16.000000)"></g>
+        <ellipse id="Oval" stroke="#00B3BE" stroke-width="8" cx="84" cy="97.5" rx="40" ry="39.5"></ellipse>
+        <g id="Group-7" transform="translate(60.810375, 75.000000)" stroke="#00B3BE" stroke-width="8">
+            <circle id="Oval" cx="23.6896253" cy="23.5" r="14.5"></circle>
+            <line x1="25.1896253" y1="2.8449465e-14" x2="25.1896253" y2="7" id="Line" stroke-linecap="round"></line>
+            <line x1="25.1896253" y1="40" x2="25.1896253" y2="47" id="Line" stroke-linecap="round"></line>
+            <line x1="11.7655663" y1="5.05100456" x2="9.81949393" y2="11.8681367" id="Line" stroke-linecap="round" transform="translate(10.792530, 8.459571) rotate(-60.941701) translate(-10.792530, -8.459571) "></line>
+            <line x1="40.4806571" y1="33.2610203" x2="38.5345848" y2="40.0781525" id="Line" stroke-linecap="round" transform="translate(39.507621, 36.669586) rotate(-60.941701) translate(-39.507621, -36.669586) "></line>
+            <line x1="38.9240689" y1="6.77036862" x2="40.8701412" y2="13.5875008" id="Line" stroke-linecap="round" transform="translate(39.897105, 10.178935) rotate(-119.058299) translate(-39.897105, -10.178935) "></line>
+            <line x1="9.32836967" y1="34.242948" x2="11.274442" y2="41.0600802" id="Line" stroke-linecap="round" transform="translate(10.301406, 37.651514) rotate(-119.058299) translate(-10.301406, -37.651514) "></line>
+            <line x1="4.94787362" y1="19.1552819" x2="3" y2="25.9738752" id="Line" stroke-linecap="round" transform="translate(3.973937, 22.564579) rotate(-105.943097) translate(-3.973937, -22.564579) "></line>
+            <line x1="45.3438178" y1="19.1552819" x2="43.3959442" y2="25.9738752" id="Line" stroke-linecap="round" transform="translate(44.369881, 22.564579) rotate(-105.943097) translate(-44.369881, -22.564579) "></line>
         </g>
+        <polyline id="Path-2" stroke="#00B3BE" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" points="80 16 97.3663801 16 97.8288855 38.768265 114.55161 46.6556813 132.447074 31.3278406 150.534666 50.1250306 137.248366 65.6991729 143.055 83.6518313 166 86.0853409 166 111.370137 143.055 112.683486 140.418474 122"></polyline>
+        <polyline id="Path-3" stroke="#00B3BE" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" points="65 41.6327998 52.5808499 46.9390437 34.6812685 33 17.4245474 50.3553278 30.4533718 66.82943 25.2886817 82.8520576 0 85.2456956 0 111.408046 25.2886817 113.801684 30.4533718 126"></polyline>
+        <path d="M22,156.282167 L31.8879925,166.170993 L50.4130611,150 L67.8897563,156.282167 C69.4963245,171.427389 70.2996087,179 70.2996087,179 C70.2996087,179 78.6307243,179 95.2929556,179 L96.6391806,158.688205 L113.099615,152.294798 L131.04891,166.170993 L146,153.833934" id="Path-4" stroke="#00B3BE" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+        <circle id="Oval" fill="#00B3BE" cx="22.5" cy="141.5" r="3.5"></circle>
+        <circle id="Oval" fill="#00B3BE" cx="143.5" cy="138.5" r="3.5"></circle>
+        <circle id="Oval" fill="#00B3BE" cx="69.5" cy="25.5" r="3.5"></circle>
     </g>
 </svg>

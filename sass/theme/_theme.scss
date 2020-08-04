@@ -1,21 +1,24 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 
-@import url('https://fonts.googleapis.com/css2?family=Catana+One&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-* {
-	font-family: 'Roboto', sans-serif;
+body {
+	font-family: 'Poppins', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h2 a {
-	font-family: 'Cantata One', serif;
+h1, h2, h3, h4, h5 {
+	font-weight: 700;
+	line-height: 1.5;
 }
+
+
 
 .site {
 	background-color: $gray;
 	padding: 0;
-	background-image: url(../imgs/arrow_bg.svg);
-	background-size: 50px 50px;
+	background-image: url(../imgs/3dgear.svg);
+	background-size: 150px 150px;
 }
 
 
@@ -69,19 +72,16 @@ h1, h2, h3, h4, h5, h2 a {
 .very-large {
 	font-size: 2em;
 	display: block;
-	font-family: 'Cantata One', serif;
 	line-height: 1;
 }
 
 #top-menu-title {
-	font-family: 'Cantata One', serif;
 	font-size: 3.9rem;
 	color: $gray;
 	line-height: 1;
 }
 
 #top-menu-title .title-two{
-	font-family: 'Cantata One', serif;
 	font-size: 3.9rem;
 	color: $gray;
 	line-height: .9em;
