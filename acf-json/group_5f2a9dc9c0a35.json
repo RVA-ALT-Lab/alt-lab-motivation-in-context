@@ -84,9 +84,9 @@
     "location": [
         [
             {
-                "param": "page_template",
+                "param": "post_type",
                 "operator": "==",
-                "value": "page-templates\/fullwidthpage-theme.php"
+                "value": "project"
             }
         ]
     ],
@@ -98,5 +98,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1596634965
+    "modified": 1596635036
 }

@@ -123,7 +123,7 @@ function motivation_research(){
 	$html = "";  
 	  $args = array(
 	      'posts_per_page' => 40,
-	      'post_type'   => 'research', 
+	      'post_type'   => 'project', 
 	      'post_status' => 'publish', 
 	      'orderby' => 'name',
 	      'order'   => 'ASC',

@@ -44,7 +44,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 </div><!-- #single-wrapper -->
 <div class="research-area container">
-	<h1>Research</h1>	
+	<h1>Projects</h1>	
 	<div class="row research-row">
 		<?php echo motivation_research(); ?>		
 	</div>
