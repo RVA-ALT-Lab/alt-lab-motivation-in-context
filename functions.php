@@ -203,7 +203,7 @@ function motivation_projects(){
 		$html .= '<div class="col-md-2 project-icon"><h2>Projects</h2><img src="'.  get_stylesheet_directory_uri() . '/imgs/project_clipboard.svg" class="img-fluid project-img" alt="Clipboard icon."></div>';
 		$html .= '<div class="col-md-10 project-info"><ul>';
 		foreach( $projects as $post ) {
-			$html .= '<li><h3>' . get_the_title() . '</h3></li>';
+			$html .= '<li><h3><a href="' . get_the_permalink() . '">' . get_the_title() . '</a></h3><div class="proj-details">' . get_the_content() . '</div></li>';
 		}
 	}
 
