@@ -193,4 +193,36 @@ function motivation_name_slug_reorder( $post_ID, $post, $update ) {
 add_action( 'save_post', 'motivation_name_slug_reorder', 10, 3 );
 
 
+//THEME PAGE
+
+function motivation_projects(){
+	global $post;
+	$html = '';
+	if( have_rows('project') ):
+		$html .= '<div class="col-md-2"><h2>Projects</h2><img src="'.  get_stylesheet_directory_uri() . '/imgs/project_clipboard.svg" class="img-fluid project-img" alt="Clipboard icon."></div>';
+		$html .= '<div class="col-md-10"><ul>';
+    // Loop through rows.
+	    while( have_rows('project') ) : the_row();
+
+	        // Load sub field value.
+	        $project_title = get_sub_field('project_title');
+	        $project_description = get_sub_field('project_description');
+	        $project_pi = get_sub_field('project_principal_investigator');
+	        $project_collaborators = get_sub_field('project_collaborators');
+	        $project_funders = get_sub_field('project_funding_partner');
+
+	        // Do something...
+	        $html .= '<li><h3>' . $project_title . '</h3>';
+	        $html .= '<div class="project-people">PI: ' . $project_pi . '</div>' ;
+	        $html .= '<div class="proj-descripton">' . $project_description . '</div></li>';
+	    // End loop.
+	    endwhile;
+
+	// No value.
+	else :
+	    // Do something...
+	endif;
+	return $html . '</ul></div>';
+}
+
  //print("<pre>".print_r($a,true)."</pre>");}
