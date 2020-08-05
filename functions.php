@@ -134,7 +134,7 @@ function motivation_research(){
 	                    if( $the_query->have_posts() ): 
 	                      while ( $the_query->have_posts() ) : $the_query->the_post();
 	                       //get_template_part( 'loop-templates/content', 'person-loop' );                 
-	                      	$html .= '<div class="col-md-6"><h3>' . get_the_title() . '</h3>';
+	                      	$html .= '<div class="col-md-6"><h3><a href="' . get_the_permalink() . '">' . get_the_title() . '</a></h3>';
 	                      	$html .= '<div class="pub-content">' . get_the_content() . '</div></div>';
 	                       endwhile;
 	                  endif;
@@ -212,36 +212,3 @@ function motivation_projects(){
 }
 
  //print("<pre>".print_r($a,true)."</pre>");}
-
-
- //   while( have_rows('project') ) : the_row();
-
-	//         // Load sub field value.
-	//         $project_title = get_sub_field('project_title');
-	//         $project_description = get_sub_field('project_description');
-	//         $project_pi = get_sub_field('project_principal_investigator');
-	//         $project_collaborators = get_sub_field('project_collaborators');
-	//         $project_funders = get_sub_field('project_funding_partner');
-
-	//         // Do something...
-	//         $html .= '<li><h3>' . $project_title . '</h3>';
-	//         $html .= '<div class="project-people">';
-	//         if ($project_pi){
-	//         	$html .= '<div class="proj-pi">PI: ' . $project_pi . '</div>';
-	//         }
-	//         if ($project_collaborators){
-	//         	$html .= '<div class="proj-collab">Collaborators: ' . $project_collaborators . '</div>';
-	//         }
-	//          if ($project_funders){
-	//         	$html .= '<div class="proj-funder">Project Funders: ' . $project_funders . '</div>';
-	//         }
-	//         $html .= '</div>' ;
-	//         $html .= '<div class="proj-descripton">' . $project_description . '</div></li>';
-	//     // End loop.
-	//     endwhile;
-
-	// // No value.
-	// else :
-	//     // Do something...
-	// endif;
-	// return $html . '</ul></div>';

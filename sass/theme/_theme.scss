@@ -336,7 +336,9 @@ blockquote {
 	height: auto;
 }
 
-
+.project-data li {
+	  list-style-image: url('../imgs/');
+}
 
 //manual row stuff
 
@@ -369,6 +371,13 @@ blockquote {
 .row-gold .col-md-4:nth-of-type(-n+2){
 	border-right: 1px solid $gold;
 }
+
+//project 
+.proj-details {
+	font-size: 1.2em;
+	line-height: 1;
+}
+
 
 //footer
 #wrapper-footer {
