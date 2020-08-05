@@ -213,7 +213,17 @@ function motivation_projects(){
 
 	        // Do something...
 	        $html .= '<li><h3>' . $project_title . '</h3>';
-	        $html .= '<div class="project-people">PI: ' . $project_pi . '</div>' ;
+	        $html .= '<div class="project-people">';
+	        if ($project_pi){
+	        	$html .= '<div class="proj-pi">PI: ' . $project_pi . '</div>';
+	        }
+	        if ($project_collaborators){
+	        	$html .= '<div class="proj-collab">Collaborators: ' . $project_collaborators . '</div>';
+	        }
+	         if ($project_funders){
+	        	$html .= '<div class="proj-funder">Project Funders: ' . $project_funders . '</div>';
+	        }
+	        $html .= '</div>' ;
 	        $html .= '<div class="proj-descripton">' . $project_description . '</div></li>';
 	    // End loop.
 	    endwhile;
