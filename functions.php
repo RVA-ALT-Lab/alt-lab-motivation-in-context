@@ -199,8 +199,8 @@ function motivation_projects(){
 	global $post;
 	$html = '';
 	if( have_rows('project') ):
-		$html .= '<div class="col-md-2"><h2>Projects</h2><img src="'.  get_stylesheet_directory_uri() . '/imgs/project_clipboard.svg" class="img-fluid project-img" alt="Clipboard icon."></div>';
-		$html .= '<div class="col-md-10"><ul>';
+		$html .= '<div class="col-md-2 project-icon"><h2>Projects</h2><img src="'.  get_stylesheet_directory_uri() . '/imgs/project_clipboard.svg" class="img-fluid project-img" alt="Clipboard icon."></div>';
+		$html .= '<div class="col-md-10 project-info"><ul>';
     // Loop through rows.
 	    while( have_rows('project') ) : the_row();
 
