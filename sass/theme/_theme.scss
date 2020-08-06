@@ -51,27 +51,6 @@ h1, h2, h3, h4, h5 {
 	//background-color: $gray;
 }
 
-.robot-ray {	
-	fill: $gold;
-	animation: hideshow 10s ease infinite;
-}
-
-@keyframes hideshow {
-  0% { opacity: 1; }
-  4% { opacity: 0; }
-  6% { opacity: 1; }
-  8% { opacity: 0; }
-  10% { opacity: 1; }
-  12% { opacity: 0; }
-  14% { opacity: 1; }
-  16% { opacity: 0; }
-  22% { opacity: 1; }
-  24% { opacity: 0; }
-  26% { opacity: 1; }
-  28% { opacity: 0; }
-  30% { opacity: 1; }
-} 
-
 .very-large {
 	font-size: 2em;
 	display: block;
@@ -146,6 +125,54 @@ blockquote {
 }
 
 //research land
+
+.research-area {
+	background-image: url(../imgs/plain_gear.svg);
+	background-repeat: no-repeat;
+	background-position: right ;
+	background-size: 400px;
+    background-attachment: fixed;
+}
+
+// #spin-gear { 
+// 	-webkit-animation-name: spin;
+//     -webkit-animation-duration: 4000ms;
+//     -webkit-animation-iteration-count: infinite;
+//     -webkit-animation-timing-function: linear;
+//     -moz-animation-name: spin;
+//     -moz-animation-duration: 4000ms;
+//     -moz-animation-iteration-count: infinite;
+//     -moz-animation-timing-function: linear;
+//     -ms-animation-name: spin;
+//     -ms-animation-duration: 4000ms;
+//     -ms-animation-iteration-count: infinite;
+//     -ms-animation-timing-function: linear;
+    
+//     animation-name: spin;
+//     animation-duration: 4000ms;
+//     animation-iteration-count: infinite;
+//     animation-timing-function: linear;
+// }
+// @-ms-keyframes spin {
+//     from { -ms-transform: rotate(0deg); }
+//     to { -ms-transform: rotate(360deg); }
+// }
+// @-moz-keyframes spin {
+//     from { -moz-transform: rotate(0deg); }
+//     to { -moz-transform: rotate(360deg); }
+// }
+// @-webkit-keyframes spin {
+//     from { -webkit-transform: rotate(0deg); }
+//     to { -webkit-transform: rotate(360deg); }
+// }
+// @keyframes spin {
+//     from {
+//         transform:rotate(0deg);
+//     }
+//     to {
+//         transform:rotate(360deg);
+//     }
+// }
 
 .research-img {
 	height: 300px;	
@@ -319,10 +346,6 @@ blockquote {
 }
 
 .research-row .col-md-6 {
-	background-image: url(../imgs/plain-gear.svg);
-	background-position: right;
-	background-repeat: no-repeat;
-	background-size: 50px 50px;	
 	margin-bottom: 50px
 }
 
@@ -332,7 +355,8 @@ blockquote {
     height: 100%;
     width: 100%;
     margin-top: 50px;
-    padding: 20px;
+    padding: 40px;
+    background-color: #fff;
 }
 
 // .person-name:before {
