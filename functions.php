@@ -142,22 +142,6 @@ function motivation_research(){
 	            echo $html;
 }
 
-function motivation_presentations(){
-	global $post;
-	if( have_rows('presentation_details', $post->ID) ):
-	    // Loop through rows.
-	    while( have_rows('presentation_details', $post->ID) ) : the_row();
-	    	get_template_part( 'loop-templates/content', 'presentation' );   
-	        
-	    // End loop.
-	    endwhile;
-
-	// No value.
-	else :
-	    // Do something...
-	endif;
-
-}
 
 //change permalink on single person posts to do lastname first
 
@@ -203,6 +187,26 @@ function motivation_project_thumb(){
 		return '<img src="' . get_stylesheet_directory_uri() . '/imgs/project_clipboard.svg" alt="Project icon." class="img-fluid project-icon">';
 	}
 
+}
+
+
+function motivation_project_presentations(){
+	global $post;
+	$html = '';
+	if( have_rows('presentations', $post->ID) ):
+		$html .='<h2>Presentations</h2><ul>';
+	    // Loop through rows.
+	    while( have_rows('presentations', $post->ID) ) : the_row();
+	    	$html .= '<li>' . get_sub_field('presentation_citation') . '</li>'; 
+	        
+	    // End loop.
+	    endwhile;
+
+	// No value.
+	else :
+	    // Do something...
+	endif;
+	return $html . '</ul>';
 }
 
 

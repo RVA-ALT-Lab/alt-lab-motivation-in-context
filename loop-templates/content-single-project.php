@@ -50,6 +50,9 @@ defined( 'ABSPATH' ) || exit;
 					</div>
 				</div>
 			</div>
+		</div><!--end row-->
+		<div class="row project-extras">
+			<?php echo motivation_project_presentations();?>
 		</div>
 	
 	</div><!-- .entry-content -->
