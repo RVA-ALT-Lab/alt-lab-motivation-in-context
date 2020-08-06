@@ -116,7 +116,7 @@ function motivation_group(){
 
 
 
-function motivation_research(){
+function motivation_person_projects(){
 	global $post;
 	$cats = wp_get_post_categories($post->ID);
 	$cats_string = implode(', ', $cats);
@@ -135,12 +135,13 @@ function motivation_research(){
 	                      while ( $the_query->have_posts() ) : $the_query->the_post();
 	                       //get_template_part( 'loop-templates/content', 'person-loop' );                 
 	                      	$html .= '<div class="col-md-6"><h3><a href="' . get_the_permalink() . '">' . get_the_title() . '</a></h3>';
-	                      	$html .= '<div class="pub-content">' . get_the_content() . '</div></div>';
+	                      	$html .= '<div class="pub-content">' . get_the_excerpt() . '</div></div>';
 	                       endwhile;
 	                  endif;
 	            wp_reset_query();  // Restore global post data stomped by the_post().
 	            echo $html;
 }
+
 
 
 //change permalink on single person posts to do lastname first

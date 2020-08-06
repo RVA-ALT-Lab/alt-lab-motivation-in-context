@@ -302,6 +302,21 @@ blockquote {
 	fill: $gold;
 }
 
+.pub-content {
+	height: 100%;
+	padding: 0 0 30px 0;
+	position: relative;
+}
+
+.understrap-read-more-link {
+	width: 90%;
+	border: 1px solid $aqua;
+	padding: 5px 10px;
+	display: block;
+	margin: 20px auto;
+	position: absolute;
+	bottom: 10px;
+}
 
 
 

@@ -147,10 +147,10 @@ if ( ! function_exists( 'understrap_all_excerpts_get_more_link' ) ) {
 	 */
 	function understrap_all_excerpts_get_more_link( $post_excerpt ) {
 		if ( ! is_admin() ) {
-			$post_excerpt = $post_excerpt . ' <p><a class="btn btn-secondary understrap-read-more-link" aria-label="More about '. get_the_title(get_the_ID()).'." href="' . esc_url( get_permalink( get_the_ID() ) ) . '">' . __(
+			$post_excerpt = $post_excerpt . ' <a class="btn btn-secondary understrap-read-more-link" aria-label="More about '. get_the_title(get_the_ID()).'." href="' . esc_url( get_permalink( get_the_ID() ) ) . '">' . __(
 				'Read More »',
 				'understrap'
-			) . '</a></p>';
+			) . '</a>';
 		}
 		return $post_excerpt;
 	}
