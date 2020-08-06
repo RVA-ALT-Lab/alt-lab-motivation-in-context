@@ -375,9 +375,36 @@ blockquote {
 //project 
 .proj-details {
 	font-size: 1.2em;
-	line-height: 1;
+	line-height: 1.2;
+	display: table;
 }
 
+.proj-data-line {
+	display: table-row;
+}
+
+.proj-label {
+	display: table-cell;
+	height: 100%;
+	padding: 10px 15px;
+	border-right: 1px solid $light-gray;
+	border-bottom: 1px solid $light-gray;
+	text-align: right;
+}
+
+.proj-data-line:last-of-type .proj-label {
+	border-bottom: none;	
+}
+
+.proj-data {
+	display: table-cell;
+	border-bottom: 1px solid $light-gray;	
+	padding: 10px 15px;
+}
+
+.proj-data-line:last-of-type .proj-data {
+	border-bottom: none;	
+}
 
 //footer
 #wrapper-footer {
