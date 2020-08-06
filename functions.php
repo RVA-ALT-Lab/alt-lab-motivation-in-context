@@ -134,8 +134,8 @@ function motivation_person_projects(){
 	                    if( $the_query->have_posts() ): 
 	                      while ( $the_query->have_posts() ) : $the_query->the_post();
 	                       //get_template_part( 'loop-templates/content', 'person-loop' );                 
-	                      	$html .= '<div class="col-md-6"><h3><a href="' . get_the_permalink() . '">' . get_the_title() . '</a></h3>';
-	                      	$html .= '<div class="pub-content">' . get_the_excerpt() . '</div></div>';
+	                      	$html .= '<div class="col-md-6"><div class="project-box"><h3><a href="' . get_the_permalink() . '">' . get_the_title() . '</a></h3>';
+	                      	$html .= '<div class="pub-content">' . get_the_excerpt() . '</div></div></div>';
 	                       endwhile;
 	                  endif;
 	            wp_reset_query();  // Restore global post data stomped by the_post().
@@ -198,7 +198,7 @@ function motivation_project_presentations(){
 		$html .='<h2>Presentations</h2><ul>';
 	    // Loop through rows.
 	    while( have_rows('presentations', $post->ID) ) : the_row();
-	    	$html .= '<li>' . get_sub_field('presentation_citation') . '</li>'; 
+	    	$html .= '<li><div class="project-box">' . get_sub_field('presentation_citation') . '</div></li>'; 
 	        
 	    // End loop.
 	    endwhile;
