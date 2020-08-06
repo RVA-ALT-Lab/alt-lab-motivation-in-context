@@ -445,7 +445,30 @@ blockquote {
 }
 
 .project-info li {
-	margin-top: 40px;
+	margin-bottom: 50px;
+	margin-top: 5px;
+}
+
+.project-extras ul, .project-info ul {
+	list-style: none;
+}
+
+.project-extras li {
+	padding: 15px 20px;
+	border-left: 5px solid $aqua;
+	margin-bottom: 10px;
+}
+
+
+.project-extras .project-box {
+	box-shadow: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+.paper li {
+	border-left: 5px solid $blue;
 }
 
 

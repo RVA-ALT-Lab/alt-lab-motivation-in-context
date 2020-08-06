@@ -195,10 +195,29 @@ function motivation_project_presentations(){
 	global $post;
 	$html = '';
 	if( have_rows('presentations', $post->ID) ):
-		$html .='<h2>Presentations</h2><ul>';
+		$html .='<h2>Presentations</h2><ul class="presentation">';
 	    // Loop through rows.
 	    while( have_rows('presentations', $post->ID) ) : the_row();
 	    	$html .= '<li><div class="project-box">' . get_sub_field('presentation_citation') . '</div></li>'; 
+	        
+	    // End loop.
+	    endwhile;
+
+	// No value.
+	else :
+	    // Do something...
+	endif;
+	return $html . '</ul>';
+}
+
+function motivation_project_papers(){
+	global $post;
+	$html = '';
+	if( have_rows('papers', $post->ID) ):
+		$html .='<h2>Papers</h2><ul class="paper">';
+	    // Loop through rows.
+	    while( have_rows('papers', $post->ID) ) : the_row();
+	    	$html .= '<li><div class="papers-box">' . get_sub_field('paper_citation') . '</div></li>'; 
 	        
 	    // End loop.
 	    endwhile;
