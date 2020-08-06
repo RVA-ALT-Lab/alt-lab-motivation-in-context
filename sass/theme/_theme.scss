@@ -20,6 +20,8 @@ h1, h2, h3, h4, h5 {
 	background-image: url(../imgs/3dgear.svg);
 	background-size: 150px 150px;
 	background-position: top left;
+	width: 100%;
+	overflow: hidden;
 }
 
 
@@ -404,6 +406,12 @@ blockquote {
 
 .proj-data-line:last-of-type .proj-data {
 	border-bottom: none;	
+}
+
+.project-icon {
+	width: 80%;
+	margin: 0 auto 30px auto;
+	display: block;
 }
 
 //footer

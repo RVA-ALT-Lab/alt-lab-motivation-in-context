@@ -193,6 +193,19 @@ function motivation_name_slug_reorder( $post_ID, $post, $update ) {
 add_action( 'save_post', 'motivation_name_slug_reorder', 10, 3 );
 
 
+//project page 
+function motivation_project_thumb(){
+	global $post;
+	$post_id = $post->ID;
+	if (has_post_thumbnail()){
+		return get_the_post_thumbnail( $post_id, 'thumbnail', array( 'class' => 'img-fluid project-icon', 'alt' => 'Project image.' ) );
+	} else {
+		return '<img src="' . get_stylesheet_directory_uri() . '/imgs/project_clipboard.svg" alt="Project icon." class="img-fluid project-icon">';
+	}
+
+}
+
+
 //THEME PAGE
 
 function motivation_projects(){

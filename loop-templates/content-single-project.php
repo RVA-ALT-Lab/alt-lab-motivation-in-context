@@ -22,6 +22,7 @@ defined( 'ABSPATH' ) || exit;
 	<div class="entry-content">
 		<div class="row">
 			<div class="col-md-3">
+				<?php echo motivation_project_thumb();?>
 			</div>
 			<div class="col-md-9 proj-details">
 				<div class="pi-area proj-data-line">
