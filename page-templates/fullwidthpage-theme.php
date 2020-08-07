@@ -20,7 +20,7 @@ if ( is_front_page() ) {
 
 <div class="wrapper" id="full-width-page-wrapper">
 
-	<div class="<?php echo esc_attr( $container ); ?>" id="content">
+	<div class="<?php echo esc_attr( $container ); ?> theme-page" id="content">
 
 		<div class="row">
 

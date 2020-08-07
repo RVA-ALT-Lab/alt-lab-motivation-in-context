@@ -410,6 +410,11 @@ blockquote {
 
 
 //THEME PAGE
+
+.theme-page .entry-content {
+	margin-bottom: 80px;
+}
+
 .project-icon img {
 	width: 100%;
 	height: auto;
@@ -499,6 +504,8 @@ blockquote {
 
 .project-extras ul, .project-info ul {
 	list-style: none;
+	margin: 10px 40px;
+    padding: 0;
 }
 
 .project-extras li {
@@ -578,5 +585,8 @@ blockquote {
 	}
 	.research-area.container h1::before {
 		display: none;
+	}
+	.project-extras ul, .project-info ul {
+		margin: 10px 10px;
 	}
 }
