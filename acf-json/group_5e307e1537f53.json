@@ -3,23 +3,6 @@
     "title": "People",
     "fields": [
         {
-            "key": "field_5e309567a0ece",
-            "label": "Directions",
-            "name": "",
-            "type": "message",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "message": "You can fill out all, some, or none of this information.",
-            "new_lines": "wpautop",
-            "esc_html": 0
-        },
-        {
             "key": "field_5e307ed0f0a95",
             "label": "Title",
             "name": "title",
@@ -28,12 +11,12 @@
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "",
+                "width": "25",
                 "class": "",
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "",
+            "placeholder": "Job\/Project related title",
             "prepend": "",
             "append": "",
             "maxlength": ""
@@ -47,7 +30,7 @@
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "50",
+                "width": "25",
                 "class": "",
                 "id": ""
             },
@@ -65,7 +48,7 @@
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "",
+                "width": "25",
                 "class": "",
                 "id": ""
             },
@@ -80,11 +63,11 @@
             "label": "Group",
             "name": "group",
             "type": "taxonomy",
-            "instructions": "",
+            "instructions": "Use categories to make affiliations between projects and people.",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "",
+                "width": "25",
                 "class": "",
                 "id": ""
             },
@@ -106,7 +89,7 @@
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "",
+                "width": "35",
                 "class": "",
                 "id": ""
             },
@@ -130,7 +113,7 @@
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "",
+                "width": "65",
                 "class": "",
                 "id": ""
             },
@@ -172,5 +155,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1596566408
+    "modified": 1596829923
 }
