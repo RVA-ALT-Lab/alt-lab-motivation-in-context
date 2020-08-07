@@ -238,7 +238,7 @@ function motivation_projects(){
 	$projects = get_field('project_association', $post->ID);
 	if($projects){
 		$html .= '<div class="col-md-2 project-icon"><h2>Projects</h2><img src="'.  get_stylesheet_directory_uri() . '/imgs/project_clipboard.svg" class="img-fluid project-img" alt="Clipboard icon."></div>';
-		$html .= '<div class="col-md-10 project-info"><ul>';
+		$html .= '<div class="col-md-10 project-info"><ul id="theme-projects">';
 		foreach( $projects as $post ) {
 			$html .= '<li><h3><a href="' . get_the_permalink() . '">' . get_the_title() . '</a></h3><div class="proj-details">' . get_the_excerpt() . ' . . . </div></li>';
 		}
