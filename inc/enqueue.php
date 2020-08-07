@@ -21,6 +21,7 @@ if ( ! function_exists( 'understrap_scripts' ) ) {
 		wp_enqueue_style( 'understrap-styles', get_template_directory_uri() . '/css/theme.min.css', array(), $css_version );
 
 		wp_enqueue_script( 'jquery' );
+		
 		$js_version = $theme_version . '.' . filemtime( get_template_directory() . '/js/motivation.js' );
 		wp_enqueue_script( 'motivation-script', get_template_directory_uri() . '/js/motivation.js', array(), $js_version, true );
 
