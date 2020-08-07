@@ -134,20 +134,25 @@ blockquote {
 	background-position: left ;
 	background-size: contain;
 	color: $dark-gray;
-	padding-left: 34px;
+	padding-left: 40px;
 	position: relative;
+	background-color: #fff;
+	font-size: 3em;
 }
 
-.resarch-area h1::after {
-	content: 'f';
-	width: 100%;
-	position: absolute;
-	bottom: 50%;
-	left: 0;
-	border-bottom: 1px solid $blue;
-	display: block;
-	height: 2px;
-	background-color: red;
+.research-area.container h1::before {
+    display: inline-block;
+    content: "";
+    color: $blue;
+    //background-color: $blue;
+    border: 10px solid $blue;
+    width: 65%;
+    transform: translateY(-1rem);
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+	clip-path: polygon(1% 0,100% 0,100% 100%,0 100%);
+    height: 10px;
 }
 
 // #spin-gear { 
@@ -261,8 +266,9 @@ blockquote {
 	border: 1px solid $blue; 
 }
 
-.news-article a.understrap-read-more-link:hover {
+.news-article a.understrap-read-more-link:hover, .pub-content a.understrap-read-more-link:hover {
 	background-color: $blue;
+	border-color: $blue;
 }
 .news-article a {
 	color: #000;
@@ -552,5 +558,7 @@ blockquote {
 	.research-area {
 		padding: 50px 10px;
 	}
-
+	.research-area.container h1::before {
+		display: none;
+	}
 }
