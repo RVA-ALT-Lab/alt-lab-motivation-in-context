@@ -215,6 +215,17 @@ blockquote {
 }
 
 //presentation 
+
+.project-extras {
+	margin-top: 50px;
+}
+
+ul.presentation, ul.paper {
+	margin-top: 40px;
+	display: block;
+	width: 100%;
+}
+
 .presentation-row h2 {
 	margin-bottom: 20px;
 }
@@ -588,5 +599,10 @@ blockquote {
 	}
 	.project-extras ul, .project-info ul {
 		margin: 10px 10px;
+	}
+
+	.project-extras h2 {
+		text-align: center;
+		width: 100%;
 	}
 }
