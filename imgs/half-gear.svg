@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="241px" height="428px" viewBox="0 0 241 428" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Page 1</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M235.5,106.578313 C177.786244,106.578313 131,152.916842 131,210.078313 C131,267.239785 177.786244,313.578313 235.5,313.578313" id="Path" stroke="#3a3a3c" stroke-width="8" stroke-linecap="round"></path>
+        <path d="M235.691733,175.131505 C214.83723,175.131505 197.931316,192.12087 197.931316,213.078313 C197.931316,234.035757 214.83723,251.025122 235.691733,251.025122" id="Path" stroke="#3a3a3c" stroke-width="8"></path>
+        <line x1="236.597983" y1="156.578313" x2="236.597983" y2="174.897462" id="Line" stroke="#3a3a3c" stroke-width="8" stroke-linecap="round"></line>
+        <line x1="236.597983" y1="251.259164" x2="236.597983" y2="269.578313" id="Line" stroke="#3a3a3c" stroke-width="8" stroke-linecap="round"></line>
+        <line x1="204.667655" y1="164.825069" x2="199.543439" y2="182.609311" id="Line" stroke="#3a3a3c" stroke-width="8" stroke-linecap="round" transform="translate(202.105547, 173.717190) rotate(-60.941701) translate(-202.105547, -173.717190) "></line>
+        <line x1="198.26447" y1="241.221006" x2="203.388686" y2="259.005248" id="Line" stroke="#3a3a3c" stroke-width="8" stroke-linecap="round" transform="translate(200.826578, 250.113127) rotate(-119.058299) translate(-200.826578, -250.113127) "></line>
+        <line x1="186.885088" y1="201.751919" x2="181.8125" y2="219.508672" id="Line" stroke="#3a3a3c" stroke-width="8" stroke-linecap="round" transform="translate(184.348794, 210.630295) rotate(-105.943097) translate(-184.348794, -210.630295) "></line>
+        <polyline id="Path-2" stroke="#3a3a3c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" transform="translate(116.500000, 142.500000) scale(-1, 1) translate(-116.500000, -142.500000) " points="4 4 49.4352967 4 50.64534 63.4982018 94.3966534 84.1096577 141.216182 44.0548288 188.538371 93.1757874 153.777702 133.874254 168.969475 180.788276 229 187.147542 229 253.221961 168.969475 256.654015 162.071589 281"></polyline>
+        <path d="M73,364.041922 L98.8363675,389.957467 L147.240579,347.578313 L192.905492,364.041922 C197.1033,403.73285 199.202203,423.578313 199.202203,423.578313 C199.202203,423.578313 209.71422,423.578313 230.738254,423.578313" id="Path" stroke="#3a3a3c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+        <circle id="Oval" fill="#3a3a3c" cx="74" cy="325.578313" r="9"></circle>
+    </g>
+</svg>

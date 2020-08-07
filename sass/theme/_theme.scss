@@ -30,7 +30,9 @@ h1, h2, h3, h4, h5 {
 	padding: 50px 80px;
 }
 
-
+.entry-title {
+	margin-bottom: 30px;
+}
 
 //header 
 
@@ -126,12 +128,26 @@ blockquote {
 
 //research land
 
-.research-area {
-	background-image: url(../imgs/plain_gear.svg);
+.research-area h1{
+	background-image: url(../imgs/half-gear.svg);
 	background-repeat: no-repeat;
-	background-position: right ;
-	background-size: 400px;
-    background-attachment: fixed;
+	background-position: left ;
+	background-size: contain;
+	color: $dark-gray;
+	padding-left: 34px;
+	position: relative;
+}
+
+.resarch-area h1::after {
+	content: 'f';
+	width: 100%;
+	position: absolute;
+	bottom: 50%;
+	left: 0;
+	border-bottom: 1px solid $blue;
+	display: block;
+	height: 2px;
+	background-color: red;
 }
 
 // #spin-gear { 
