@@ -22,7 +22,7 @@ defined( 'ABSPATH' ) || exit;
 	<div class="entry-content">
 		<div class="row">
 			<div class="col-md-4">
-					<?php echo motivation_profile_image();?>
+					<?php echo get_the_post_thumbnail();?>
 			</div>
 			<div class="col-md-8">
 				<?php the_field('biography'); ?>

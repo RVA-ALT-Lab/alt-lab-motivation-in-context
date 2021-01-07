@@ -147,6 +147,39 @@ function motivation_person_projects(){
 	
 }
 
+function motivation_partner_projects(){
+	global $post;
+	$parent_id = $post->ID;
+		$html = "";  
+		  $args = array(
+		      'posts_per_page' => 40,
+		      'post_type'   => 'project', 
+		      'post_status' => 'publish', 
+		      'orderby' => 'name',
+		      'order'   => 'ASC',
+		      'nopaging' => false,
+		  );
+		     
+	    $the_query = new WP_Query( $args );
+	                    if( $the_query->have_posts()): 
+	                    	$html .= "<div class='research-area container'><h1>Projects</h1><div class='row research-row'>";
+	                      while ( $the_query->have_posts() ) : $the_query->the_post();
+	                      	if (get_field('project_funding_partner', get_the_ID() ) ){
+	                      		 if(in_array($parent_id, get_field('project_funding_partner', get_the_ID() ) )){
+			                       	$html .= '<div class="col-md-6"><div class="project-box"><h3><a href="' . get_the_permalink() . '">' . get_the_title() . '</a></h3>';
+			                      	$html .= '<div class="pub-content">' . get_the_excerpt() . ' . . . </div></div></div>';
+			                       }       
+	                      	}
+	                              
+	                      	
+	                       endwhile;
+	                  endif;
+	            wp_reset_query();  // Restore global post data stomped by the_post().
+	            echo $html . "</div></div>";
+
+	
+
+}
 
 
 //change permalink on single person posts to do lastname first

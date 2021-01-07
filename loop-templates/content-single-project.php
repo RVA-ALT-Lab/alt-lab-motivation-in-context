@@ -40,7 +40,15 @@ defined( 'ABSPATH' ) || exit;
 				<div class="funding-area proj-data-line">
 					<div class="proj-cat proj-label">Funding Partners:</div> 
 					<div class="proj-data">
-						<?php the_field('project_funding_partner');?>
+						<?php 
+						$partner_id = get_field('project_funding_partner');
+						foreach ($partner_id as $key => $partner) {
+							# code...
+							$name = get_the_title($partner);
+							$url = get_the_permalink($partner);
+							echo  "<a href='{$url}'>{$name}</a><br>";
+						}
+						;?>
 					</div>
 				</div>
 				<div class="description-area proj-data-line">

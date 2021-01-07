@@ -44,7 +44,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 </div><!-- #single-wrapper -->
 	
-		<?php echo motivation_person_projects(); ?>		
+		<?php echo motivation_partner_projects(); ?>		
 
 <?php
 get_footer();
