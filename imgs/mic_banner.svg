@@ -4,7 +4,7 @@
     <g id="mic-banner" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="Rectangle"  x="-81" y="-38" width="1229" height="275"></rect>
         <text id="in-context" font-family="Poppins-Bold, Poppins" font-size="93" font-weight="bold" letter-spacing="-3.72" fill="#FDFEFF">
-            <tspan x="220" y="185">in context</tspan>
+            <tspan x="220" y="185">in context lab</tspan>
         </text>
         <text id="otivation" fill="#FFFFFF" fill-rule="nonzero" font-family="Poppins-Bold, Poppins" font-size="122" font-weight="bold" letter-spacing="-4.88">
             <tspan x="326" y="97">otivation</tspan>
@@ -12,9 +12,7 @@
         <text id="M" fill="#FFFFFF" fill-rule="nonzero" font-family="Poppins-Bold, Poppins" font-size="122" font-weight="bold" letter-spacing="-4.88">
             <tspan x="213" y="97">M</tspan>
         </text>
-        <text id="lab" font-family="Poppins-Bold, Poppins" font-size="93" font-weight="bold" letter-spacing="-3.72" fill="#FDFEFF">
-            <tspan x="719" y="185">lab</tspan>
-        </text>
+       
        
         <g id="Group-6" transform="translate(0.000000, 16.000000)"></g>
         <ellipse id="Oval" stroke="#00B3BE" stroke-width="8" cx="84" cy="97.5" rx="40" ry="39.5"></ellipse>

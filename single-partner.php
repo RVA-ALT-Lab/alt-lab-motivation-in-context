@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all single Person posts
+ * The template for displaying all single partner posts
  *
  * @package UnderStrap
  */
@@ -25,7 +25,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<?php
 				while ( have_posts() ) {
 					the_post();
-					get_template_part( 'loop-templates/content', 'single-person' );
+					get_template_part( 'loop-templates/content', 'single-partner' );
 					//understrap_post_nav();
 
 					// If comments are open or we have at least one comment, load up the comment template.
@@ -43,9 +43,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 	</div><!-- #content -->
 
 </div><!-- #single-wrapper -->
-
-		<?php echo motivation_person_projects(); ?>		
 	
+		<?php echo motivation_person_projects(); ?>		
 
 <?php
 get_footer();
