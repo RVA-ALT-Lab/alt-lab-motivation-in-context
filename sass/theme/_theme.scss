@@ -287,11 +287,11 @@ ul.presentation, ul.paper {
 
 //person land
 
-.people-row .col-md-4 {
+.people-row .col-md-4, .partner-row .col-md-4 {
 	margin-bottom: 50px;
 }
 
-.single-person-loop {
+.single-person-loop, .single-partner-loop {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
     -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
     padding: 20px 25px;
@@ -305,7 +305,7 @@ ul.presentation, ul.paper {
 	height: auto;
 }
 
-.person-name {
+.person-name, .partner-name {
 	//border: 4px solid #feb301;
 	padding: 10px 0;
 	color: #000;
@@ -393,6 +393,16 @@ ul.presentation, ul.paper {
     background-color: #fff;
 }
 
+
+.partner-loop {
+	display: block;
+	margin: 0 auto;
+	border: 2px solid #efefef;
+}
+
+.partner-name {
+	text-align: center;
+}
 // .person-name:before {
 //   content: "";
 //   width: 0px;

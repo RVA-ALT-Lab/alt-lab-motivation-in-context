@@ -41,7 +41,7 @@ if ( is_front_page() ) {
 
 			</div><!-- #primary -->
 		</div><!-- .row end -->
-		<div class="row people-row">
+		<div class="row partner-row">
 			<?php motivation_partners();?>
 		</div>
 
