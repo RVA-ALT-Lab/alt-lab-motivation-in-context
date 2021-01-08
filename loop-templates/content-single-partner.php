@@ -25,7 +25,9 @@ defined( 'ABSPATH' ) || exit;
 					<?php echo get_the_post_thumbnail();?>
 			</div>
 			<div class="col-md-8">
-				<?php the_field('biography'); ?>
+				<?php $url = get_field('partner_link'); 
+				  echo "<a href='{$url}'>{$url}</a>";
+				?>
 			</div>
 		</div>
 	
